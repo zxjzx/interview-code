@@ -1,4 +1,5 @@
 # 某公司面试题
+重构[exam-intermediate.js](https://github.com/zxjzx/interview-code/blob/master/exam-intermediate.js)
 
 - 上面的文件是针对某个服务封装的 SDK，功能可用，但使用很不友好，且有很多重复代码。
 
@@ -10,9 +11,9 @@
 - 2.增强可读性（请取有意义的变量名，我们对变量的命名是经过反复斟酌的）
 - 3.提高可维护性（减少重复代码，让以后更方便添加新功能）
 - 4.提高易用性（让别人使用这个SDK更方便，不容易出错；尽可能的减少入参）
-- 5.添加单元测试（框架不限，推荐使用jest）
+- 5.添加单元测试（框架不限，推荐使用[jest](https://femessage.github.io/blog/docs/tutorial/test-driven-development-by-jest.html)）
 - 6.请求库替换成axios
-- 7.使用 codacy 对自己的代码进行质量评估，至少要 B 以上, issue 要少于 10 个
+- 7.使用 [codacy](https://www.codacy.com/) 对自己的代码进行质量评估，至少要 B 以上, issue 要少于 10 个
 
 + 还有一点就是，看到这个js在使用callback，是不是有点别扭？
 + 这里的要求只能详细到这种程度了，因为这就是要测试你内在的素养、实际工作中的编码能力，如果不能自主地写出整洁的代码，会让其他团队成员很难受的。
